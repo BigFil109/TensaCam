@@ -1,0 +1,49 @@
+*target*
+*.war
+*.ear
+*.class
+*.jar
+# Exclude jars marked as lib from gitIgnore
+!**/lib/*.jar
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.pydevproject
+.metadata
+.mvn/**
+spark-warehouse/**
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.idea/
+.checkstyle
+**/*.iml
+tmp
+derby.log
+maven/
+eclipse-classes/
+
+# Hbase conf
+hbase-extractor/hbase/conf/
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# git merge orig backups
+**/*.orig
+
+
+# Folks local configs
+src/main/resources/application-paul.properties
